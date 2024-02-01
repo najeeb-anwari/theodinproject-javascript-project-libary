@@ -86,6 +86,11 @@ dialog {
     transition: background-color 0.3s ease;
 }
 
+.btn-sm {
+    padding: 5px 10px; /* Adjusted padding for smaller size */
+    font-size: 14px; /* Adjusted font size for smaller size */
+}
+
 .btn-primary {
     background-color: #007bff;
     color: #fff;
@@ -111,13 +116,17 @@ dialog {
 .btn:active {
     border-bottom-width: 4px;
 }
+
 .books-container {
     display: flex;
     flex-wrap: wrap;
+    gap: .5rem;
     width: 100%;
+    margin: 1rem 0;
 }
 
 .book-item {
+    width: calc((100% - 2rem) / 3);
     max-width: 400px;
     padding: 20px;
     background-color: #fff;
@@ -126,4 +135,29 @@ dialog {
     border-right: 5px solid #555;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.book-item hr {
+    margin: .5rem 0 1rem ;
+}
+
+.card-content {
+    margin-bottom: 20px;
+}
+
+.book-field {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.book-field label {
+    font-weight: 700;
+}
+
+.book-status {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 5px 10px; /* Padding to give space around the text */
+    border-radius: 5px; /* Rounded corners */
 }
