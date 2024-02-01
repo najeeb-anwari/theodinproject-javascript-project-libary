@@ -1,7 +1,11 @@
-export function Book(name, author, pages) {
-    this.name = name;
+export function Book(title, author, pages) {
+    this.id = 0;
+    this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = false;
+    this.toggleRead = function() {
+        this.read = !this.read;
+    }
 }
 
