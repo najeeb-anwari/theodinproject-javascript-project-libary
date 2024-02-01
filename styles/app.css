@@ -89,6 +89,7 @@ dialog {
 .btn-sm {
     padding: 5px 10px; /* Adjusted padding for smaller size */
     font-size: 14px; /* Adjusted font size for smaller size */
+    border-bottom-width: 3px !important;
 }
 
 .btn-primary {
@@ -160,4 +161,5 @@ dialog {
     color: white; /* White text color */
     padding: 5px 10px; /* Padding to give space around the text */
     border-radius: 5px; /* Rounded corners */
+    font-size: .8rem;
 }

@@ -55,7 +55,7 @@ bookForm.addEventListener("submit", (e) => {
                 </div>
                     
                 <hr/>
-                <button class="btn btn-sm btn-primary readToggle" data-id="${book.id}">${book.read ? "Mark as Unread" : "Mark as Read" }</button>
+                <button class="btn btn-primary btn-sm readToggle" data-id="${book.id}">${book.read ? "Mark as Unread" : "Mark as Read" }</button>
                     
             </div>
         </div>
