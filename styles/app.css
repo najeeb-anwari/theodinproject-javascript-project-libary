@@ -98,6 +98,16 @@ dialog {
     border-bottom: 5px solid #043a74;
 }
 
+.btn-danger {
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    border-bottom: 5px solid #861b26;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
 .btn-cancel {
     background-color: #ccc;
     color: #555;
